@@ -45,7 +45,12 @@ class Header extends React.Component {
                 
 
                 <div>
-                    <span style={{ fontSize: 30, cursor: "pointer" }} onClick={this.openNav}>&#9776; open</span>
+                    <span style={{ fontSize: 30, cursor: "pointer" }} onClick={this.openNav}>&#9776;
+                    <i class="material-icons">Home</i>
+                    <i class="material-icons">Workshops</i>
+                    <i class="material-icons">Events</i>
+                    <i class="material-icons">CR-Portal</i>
+                    </span>
                     <div
                         ref="snav"
                         className="overlay"
