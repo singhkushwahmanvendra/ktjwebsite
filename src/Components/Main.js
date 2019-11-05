@@ -13,11 +13,15 @@ class Main extends React.Component {
             </div>
             <main className="main">
                 <div className="container">
-                        <div className="centered">
-                        <img src="./ktjlogo.png" className="logo" alt="Snow"></img>   
-                        <p data-content="Kshitij" className="big" style={{fontSize:'5em',margin:0,padding:0 }} >Kshitij</p>
-                        <p data-content="2020" className="medium" style={{fontSize:'4em',margin:0,padding:0}}>2020</p>
-                        <p data-content="Apocalyptic Adventure" className="theme" style={{fontSize:'3em',margin:0,padding:0}}>Apocalyptic Adventure</p>
+                        <div >
+                        <img src="./ktj.png" className="logo" alt="Snow"></img>   
+                        <p className="soon">COMING SOON !!</p>
+                        </div> 
+                        <div style={{clear:"both"}}></div> 
+                        <div className="bottom">
+                        <a href="https://www.facebook.com/ktj.iitkgp/"><img src="./facebook.png"  alt="Snow" style={{width:"7%",margin:"0% 2%"}}></img></a>
+                        <a href="https://www.instagram.com/ktj.iitkgp/"><img src="./instagram.png"  alt="Snow" style={{width:"7%",margin:"0% 2%"}}></img></a>
+                        <a href="https://www.youtube.com/channel/UCJBD3V9lQm8d5uYICtePhTA"><img src="./youtub.png"  alt="Snow" style={{width:"8%",margin:"0% 2%",paddingBottom:"1%"}}></img></a>
                         </div>
                 </div>
             </main>

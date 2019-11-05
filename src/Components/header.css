@@ -1,12 +1,34 @@
 *{
     color:white;
 }
-
-.material-icons{
-    margin: 10px 20px;
-    padding: 10px 20px;
-    color: purple;
+.navig{
+    display: none;
 }
+
+.left{
+    float: left;
+    width: 4%;
+    margin: 1% 0% 0% 2%;
+}
+
+.right{
+    float: right;
+    width: 25%;
+    margin-top: 1%;
+}
+
+.links{
+    float: left;
+    font-size: 1.3vw;
+    margin-right: 2%;
+    padding: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0 0 1px white,0px 0px 5px black;
+    cursor: pointer;
+}
+
+
 .overlay {
     height: 100%;
     width: 0;
@@ -49,12 +71,21 @@
     font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
     right: 35px;
+  }
+  .navig{
+      display: inline-block;
+  }
+  .links{
+      display: none;
+  }
+  .left,.right{
+      display: none;
   }
 }
 
